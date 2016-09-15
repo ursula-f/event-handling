@@ -32,8 +32,13 @@ function two () {
 
   two.addEventListener('mouseleave', makeWhite)
 }
-// CREATE FUNCTION three HERE
 
+function three () {
+  var three = document.getElementById('three')
+
+  three.addEventListener('mouseenter', makeOrange)
+
+}
 // CREATE FUNCTION four HERE
 
 // Changes the background color of event's target
@@ -47,4 +52,8 @@ function makeWhite (evt) {
 
 function makeGreen (evt) {
   evt.target.style.backgroundColor = 'green'
+}
+
+function makeOrange (evt) {
+  evt.target.style.backgroundColor = 'orange'
 }
