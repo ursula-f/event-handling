@@ -8,6 +8,7 @@ function start () {
   // when you mouse over it.
   one()
   two()
+  three()
 
   // Your turn! Create a new function called `two`, then call it from here.
 }
@@ -37,7 +38,7 @@ function three () {
   var three = document.getElementById('three')
 
   three.addEventListener('mouseenter', makeOrange)
-
+  three.addEventListener('mouseleave', makeWhite)
 }
 // CREATE FUNCTION four HERE
 
